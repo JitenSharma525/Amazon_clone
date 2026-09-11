@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border : border-box;
+}
+.navbar{
+    height : 60px;
+    background-color: #0f1111;
+    color : white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.navlogo{
+height: 50px;
+width: 100px;
+}
+
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border : 1px solid white;
+}
+
+                    /* box 2 */
+.icon{
+margin-left: 20px;
+display: flex;
+align-items: center;
+}
+
+.add-first{
+    margin-left: 15px;
+color: #cccccc;
+font-size: 0.85rem;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    background-color: pink;
+    border-radius: 6px;
+}
+.select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border : none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+.searchbox{
+    width: 100%;
+    font-size: 15px;
+    border : none;
+}
+.searchbox:hover{
+    border: 2px solid #febd68;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.upper{
+    font-size: 0.75rem;
+}
+.lower{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cart i {
+    font-size: 30px;
+}
+.cart {
+    font-weight: 700;
+}
+
+/*              Pannel           */
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.menu{
+    margin-left: 10px;
+    color: white;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("61gGY9AfeSL._SX3000_.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.hero-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color : black;
+    height: 40px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.hero-msg a {
+    color : #007185;
+    text-decoration: none;
+}
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e2e7e6;
+}
+.box {
+    margin-top: 10px;
+    height: 400px;
+    width : 23%;
+    background-color: white;
+    /* border : 2px solid black; */
+}
+.boxContent{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.getyourgameon{
+    height: 300px;
+    background-size: cover;
+    /* border :2px solid black */ 
+}
+.link{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 20px;
+}
+
+                    /* footer */
+
+.footer1{
+    margin-top: 20px;
+    display: flex;
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-weight:700;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    background-color: #222f3d;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+.footer3{
+    height: 50px;
+    background-color: #222f3d;
+    border-top: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.f-link{
+    color: white;
+    text-decoration: none;
+}
+.foot-logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.usd{
+    border: 0.5px solid white;
+    color : white
+}
+.a{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.b{
+    margin-left: 10px;
+}
+.f-link{
+    display: block;
+}
+.head{
+    color: white;
+    font-size: 20px;
+}
